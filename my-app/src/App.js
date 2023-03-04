@@ -1,22 +1,15 @@
 import './App.css';
+import Main from './Main.js'
+import Footer from './Footer.js'
+import Header from './Header.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-         Home Page
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main />
+      <Footer />
+ 
     </div>
   );
 }
